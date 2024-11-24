@@ -1,0 +1,66 @@
+:root {
+  /* font and sizes */
+  --font-family: "Sora", sans-serif;
+  --size-title: 1.8rem;
+  --size-body: 1.4rem;
+  --size-footer: 1.2rem;
+  --size-tag: 1rem;
+
+  /* colors */
+  --bg-body: #fff;
+  --bg-tag: #f2eafd;
+  --bg-card: #fafaf9;
+
+  --shadow-card: #e5eaf0;
+
+  --color-title: #20293a;
+  --color-body: #394150;
+  --color-tag: #7c19ee;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--bg-body);
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--size-title);
+  color: var(--color-title);
+}
+
+h2 {
+  font-size: var(--size-body);
+  color: var(--color-body);
+}
+
+p {
+  font-size: var(--size-body);
+  color: var(--color-body);
+}
+
+.container {
+  max-width: min(95%, 120rem);
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
