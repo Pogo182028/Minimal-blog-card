@@ -63,4 +63,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Author
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@your-username]([https://{github.com/your-usermame}](https://github.com/Pogo182028))
